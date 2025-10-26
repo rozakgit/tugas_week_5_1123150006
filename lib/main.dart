@@ -16,3 +16,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class Halaman extends StatelessWidget {
+  const Halaman({super.key});
+}
