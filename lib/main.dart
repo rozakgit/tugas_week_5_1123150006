@@ -19,4 +19,8 @@ class MyApp extends StatelessWidget {
 
 class Halaman extends StatelessWidget {
   const Halaman({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
 }
