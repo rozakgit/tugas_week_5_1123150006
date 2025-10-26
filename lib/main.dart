@@ -36,9 +36,10 @@ class Halaman extends StatelessWidget {
         ],
       ),
       body: Container(
+        margin: EdgeInsets.all(80),
         alignment: Alignment.center,
         child: Text(
-          'Halo Semua',
+          'Muhammad Abdul Rozak',
           style: TextStyle(
             color: Colors.white,
             fontSize: 24,
@@ -46,6 +47,7 @@ class Halaman extends StatelessWidget {
           ),
         ),
         decoration: BoxDecoration(
+          borderRadius: BorderRadius.all(Radius.circular(12.0)),
           gradient: LinearGradient(
             colors: [Colors.black, Colors.greenAccent],
             begin: Alignment.topCenter,
