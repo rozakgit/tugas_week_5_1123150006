@@ -21,6 +21,14 @@ class Halaman extends StatelessWidget {
   const Halaman({super.key});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: const Text('Tugas Week 5')));
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.green,
+        title: const Text('Tugas Week 5'),
+        actions: [
+          IconButton(onPressed: () {}, icon: const Icon(Icons.add, size: 24.0)),
+        ],
+      ),
+    );
   }
 }
