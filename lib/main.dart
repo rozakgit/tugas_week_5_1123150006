@@ -23,10 +23,16 @@ class Halaman extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green,
-        title: const Text('Tugas Week 5'),
+        backgroundColor: Colors.black,
+        title: const Text(
+          'Tugas Week 5',
+          style: TextStyle(color: Colors.white),
+        ),
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.add, size: 24.0)),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.add, size: 24.0, color: Colors.white),
+          ),
         ],
       ),
     );
