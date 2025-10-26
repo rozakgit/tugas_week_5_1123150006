@@ -35,7 +35,15 @@ class Halaman extends StatelessWidget {
           ),
         ],
       ),
-      body: Container(decoration: BoxDecoration()),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Colors.black, Colors.greenAccent],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+          ),
+        ),
+      ),
     );
   }
 }
