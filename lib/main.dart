@@ -38,13 +38,36 @@ class Halaman extends StatelessWidget {
       body: Container(
         margin: EdgeInsets.all(80),
         alignment: Alignment.center,
-        child: Text(
-          'Muhammad Abdul Rozak',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-          ),
+        child: Row(
+          children: [
+            Text(
+              '1123150006',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            Text(
+              'Muhammad Abdul Rozak',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            Text(
+              'TISE - 23 P2',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
         ),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(12.0)),
