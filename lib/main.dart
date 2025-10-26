@@ -9,10 +9,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Tugas Week 5',
-      debugShowCheckedModeBanner: false,
-      home: Halaman(),
-    );
+    return MaterialApp(title: 'Tugas Week 5', home: Halaman());
   }
 }
