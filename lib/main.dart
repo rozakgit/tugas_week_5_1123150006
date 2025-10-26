@@ -35,7 +35,7 @@ class Halaman extends StatelessWidget {
           ),
         ],
       ),
-      body: Container(),
+      body: Container(decoration: BoxDecoration()),
     );
   }
 }
